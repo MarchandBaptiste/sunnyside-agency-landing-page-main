@@ -67,10 +67,39 @@ h3 {
 p {
   font-family: "Barlow", sans-serif;
 }
-.link{
-    font-family: "Fraunces", serif;
-    font-weight: 900;
-    
+/* header */
+header{
+  background-image: url("../images/mobile/image-header.jpg");
+}
+
+/* article conseil*/
+.advens{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+}
+.advens h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.link-yellow {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--Yellow-500);
+  text-decoration-thickness: 5px;
+  text-underline-offset: 1px;
+}
+.link-red {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--Red-400);
+  text-decoration-thickness: 5px;
+  text-underline-offset: 1px;
 }
 /* testimonials */
 .testimonials {
@@ -78,8 +107,9 @@ p {
 }
 .testimonials h2 {
   color: var(--Grey-400);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
+  text-transform: uppercase;
   padding-bottom: 1.5rem;
 }
 .testimonials .job {
