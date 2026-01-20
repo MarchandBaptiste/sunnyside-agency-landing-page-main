@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -22,7 +20,10 @@
   <body>
     <header>
       <div>
-        <img src="./assets/images/logo.svg" alt="logo sunnyside" />
+        <div class="top-bar">
+          <img src="./assets/images/logo.svg" alt="logo sunnyside" />
+          <img src="./assets/images/icon-hamburger.svg" alt="icon hamburger" />
+        </div>
         <nav>
           <ul>
             <li><a href="#">About</a></li>
@@ -32,23 +33,25 @@
           </ul>
         </nav>
       </div>
-
-      <h1>We are creatives</h1>
-      <picture>
-        <source
-          media="(min-width: 1024px)"
-          srcset="./assets/images/desktop/image-transform.jpg"
-          class="image d'oeuf"
-        />
-
-        <img
-          src="./assets/images/mobile/image-transform.jpg"
-          alt="image d'oeuf"
-        />
-      </picture>
+      <div class="title">
+        <h1>We are creatives</h1>
+        <img src="./assets/images/icon-arrow-down.svg" alt="icon arrow down" class="title-img"/>
+      </div>
     </header>
     <main>
       <section>
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="./assets/images/desktop/image-transform.jpg"
+            class="image d'oeuf"
+          />
+
+          <img
+            src="./assets/images/mobile/image-transform.jpg"
+            alt="image d'oeuf"
+          />
+        </picture>
         <article class="advens">
           <h2>Transform your brand</h2>
           <p>
@@ -78,7 +81,7 @@
           </p>
           <a href="#" class="link-red">Learn more</a>
         </article>
-        <article>
+        <article class="poster">
           <picture>
             <source
               media="(min-width: 1024px)"
@@ -91,15 +94,16 @@
               alt="image de cerise"
             />
           </picture>
-
-          <h3>Graphic design</h3>
-          <p>
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
+          <div>
+            <h3>Graphic design</h3>
+            <p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
         </article>
-        <article>
+        <article class="poster">
           <picture>
             <source
               media="(min-width: 1024px)"
@@ -112,12 +116,13 @@
               alt="image d'orange"
             />
           </picture>
-
-          <h3>Photography</h3>
-          <p>
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
+          <div>
+            <h3>Photography</h3>
+            <p>
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
         </article>
       </section>
 
