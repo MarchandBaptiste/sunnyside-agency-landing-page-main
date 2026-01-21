@@ -264,7 +264,11 @@ footer div:last-of-type ul {
   padding: 0 6rem;
 }
 @media screen and (min-width: 1024px) {
-/* testimonials */
+/* poster */
+.poster{
+  display: flex;
+}
+  /* testimonials */
 .testimonials div{
   display: flex;
   gap: 1rem;
