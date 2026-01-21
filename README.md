@@ -1,9 +1,9 @@
 # Frontend Mentor - Sunnyside agency landing page
-
+![Design preview for the Sunnysided landing page coding challenge](preview.jpg)
 ## Présentation
 Ce projet est une intégration de landing page réalisée sur mon temps libre. Ce challenge m'a permis de travailler spécifiquement sur la mise en page asymétrique et la gestion des grilles d'images responsives.
 
-**Démo en ligne :** [Sunnyside](https://marchandbaptiste.github.io/sunnyside-agency-landing-page/)]
+**Démo en ligne :** [Sunnyside](https://marchandbaptiste.github.io/sunnyside-agency-landing-page/)
 
 ## Objectifs du projet
 * Maîtriser l'alternance de contenu (texte/image) en utilisant les propriétés d'ordre de Flexbox ou Grid.
